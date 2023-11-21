@@ -1,21 +1,18 @@
 [
-	//
-    //	Base terrains
-	//
-    {
-        "name": "Ocean",
+	{
+		"name": "Ocean",
 		"type": "Water",
 		"movementCost": 1,
 		"RGB": [2, 104, 100],
 		"uniques": [
 
 		]
-    },
-    {
+	},
+	{
 		"name": "Coast",
-		"type": "Water",
-		"movementCost": 1,
-		"RGB": [42, 206, 179],
+	    	"type": "Water",
+	    	"movementCost": 1,
+	    	"RGB": [42, 206, 179],
 		"uniques": [
 			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -24,6 +21,7 @@
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
+		"defenceBonus": -0.66,
 		"RGB": [231, 242, 249],
 		"uniques": [
 			"Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
@@ -36,7 +34,7 @@
 		"name": "Tundra",
 		"type": "Land",
 		"movementCost": 1,
-		"defenceBonus": -0.2,
+		"defenceBonus": -0.33,
 		"RGB": [189, 204, 191],
 		"uniques": [
 			"Occurs at temperature between [-0.8] and [-0.6] and humidity between [0] and [1]",
@@ -49,6 +47,7 @@
 		"name": "Grassland",
 		"type": "Land",
 		"movementCost": 1,
+		"defenceBonus": -0.33,
 		"RGB": [107, 214, 152],
 		"uniques": [
 			"Occurs at temperature between [-0.7] and [0.6] and humidity between [0] and [1]",
@@ -60,6 +59,7 @@
 		"name": "Plains",
 		"type": "Land",
 		"movementCost": 1,
+		"defenceBonus": -0.33,
 		"RGB": [61, 142, 93],
 		"uniques": [
 			"Occurs at temperature between [0.5] and [0.8] and humidity between [0] and [1]",
@@ -71,7 +71,7 @@
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
-		"defenceBonus": -0.2,
+		"defenceBonus": -0.66,
 		"RGB": [230, 230, 113],
 		"uniques": [
 			"Occurs at temperature between [0.7] and [1] and humidity between [0] and [1]",
@@ -102,10 +102,7 @@
 			"Considered [Desirable] when determining start locations"
 		]
 	},
-
-	//
-	//	Terrain Features
-	//
+	
 	{
 		"name": "Hill",
 		"type": "TerrainFeature",
