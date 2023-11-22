@@ -18,41 +18,18 @@
 		]
 	},
 	{
-		"name": "Snow",
-		"type": "Land",
-		"movementCost": 1,
-		"defenceBonus": -0.66,
-		"RGB": [231, 242, 249],
-		"uniques": [
-			"Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
-			"Always Fertility [-1] for Map Generation",
-			"Considered [Undesirable] when determining start locations",
-			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	},
-	{
-		"name": "Tundra",
-		"type": "Land",
-		"movementCost": 1,
-		"defenceBonus": -0.33,
-		"RGB": [189, 204, 191],
-		"uniques": [
-			"Occurs at temperature between [-0.8] and [-0.6] and humidity between [0] and [1]",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	},
-	{
 		"name": "Grassland",
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.33,
 		"RGB": [107, 214, 152],
 		"uniques": [
-			"Occurs at temperature between [-0.7] and [0.6] and humidity between [0] and [1]",
-			"Considered [Food] when determining start locations",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Occurs at temperature between [-1] and [1] and humidity between [0.5] and [1]",
+			"Considered [Desirable] when determining start locations",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"A Region is formed with at least [60]% [Plains] tiles, with priority [2]",
+            		"A Region can not contain more [Plains] tiles than [Grassland] tiles",
+			"A Region can not contain more [Mountains] tiles than [Plains] tiles",
 		]
 	},
 	{
@@ -62,21 +39,13 @@
 		"defenceBonus": -0.33,
 		"RGB": [61, 142, 93],
 		"uniques": [
-			"Occurs at temperature between [0.5] and [0.8] and humidity between [0] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [0] and [0.5]",
 			"Considered [Desirable] when determining start locations",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	},
-	{
-		"name": "Desert",
-		"type": "Land",
-		"movementCost": 1,
-		"defenceBonus": -0.66,
-		"RGB": [230, 230, 113],
-		"uniques": [
-			"Occurs at temperature between [0.7] and [1] and humidity between [0] and [1]",
-			"Considered [Food] when determining start locations",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+
+			"A Region is formed with at least [30]% [Plains] tiles, with priority [1]",
+            		"A Region can not contain more [Grassland] tiles than [Plains] tiles",
+			"A Region can not contain more [Mountains] tiles than [Grassland] tiles"
 		]
 	},
 	{
@@ -86,6 +55,7 @@
 		"defenceBonus": 0.25,
 		"RGB": [120, 120, 120],
 		"uniques": [
+			"Occurs at temperature between [-1] and [-0.2] and humidity between [0] and [1]",
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations"
@@ -151,6 +121,39 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
+	//Deleted
+	{
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [231, 242, 249],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Doesn't generate naturally"
+		]
+	},
+	{
+		"name": "Tundra",
+		"type": "Land",
+		"movementCost": 1,
+		"defenceBonus": -0.2,
+		"RGB": [189, 204, 191],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Doesn't generate naturally"
+		]
+	},
+		{
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"defenceBonus": -0.2,
+		"RGB": [230, 230, 113],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Doesn't generate naturally"
+		]
+	},
 	{
 		"name": "Ice",
 		"type": "TerrainFeature",
@@ -161,9 +164,8 @@
 			"Coast"
 		],
 		"uniques": [
-			"Rough terrain",
-			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
-			"Considered [Undesirable] when determining start locations"
+			"Will not be displayed in Civilopedia",
+			"Doesn't generate naturally"
 		]
 	}
 ]
