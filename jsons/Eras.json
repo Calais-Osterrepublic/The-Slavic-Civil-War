@@ -1,6 +1,20 @@
 [
 	{
-		"name": "Primeval Era",
+		"name": "DEFCON 5",
+		"researchAgreementCost": 150,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Reclaimer",
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Hunters",
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityIndustrial",
+		"embarkDefense": 1,
+		"iconRGB": [0, 200, 200]
+	},
+	{
+		"name": "DEFCON 4",
 		"researchAgreementCost": 150,
 		"startingSettlerCount": 1,
 		"startingSettlerUnit": "Tribe",
@@ -9,8 +23,64 @@
 		"startingMilitaryUnit": "Hunters",
 		"settlerPopulation": 1,
 		"startPercent": 0,
-		"citySound": "cityAncient",
+		"citySound": "cityIndustrial",
 		"embarkDefense": 1,
-		"iconRGB": [255, 87, 35]
-	}
+		"iconRGB": [0, 200, 0]
+	},
+	{
+		"name": "DEFCON 3",
+		"researchAgreementCost": 150,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Hunters",
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityIndustrial",
+		"embarkDefense": 1,
+		"iconRGB": [200, 200, 0]
+	},
+	{
+		"name": "DEFCON 2",
+		"researchAgreementCost": 150,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Hunters",
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityIndustrial",
+		"embarkDefense": 1,
+		"iconRGB": [200, 100, 0]
+	},
+	{
+		"name": "DEFCON 1",
+		"researchAgreementCost": 150,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Hunters",
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityIndustrial",
+		"embarkDefense": 1,
+		"iconRGB": [200, 0, 0]
+	},
+	{
+		"name": "ONE BULLET ONE SHOT",
+		"researchAgreementCost": 150,
+		"startingSettlerCount": 1,
+		"startingSettlerUnit": "Tribe",
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Hunters",
+		"settlerPopulation": 1,
+		"startPercent": 0,
+		"citySound": "cityIndustrial",
+		"embarkDefense": 1,
+		"iconRGB": [255, 255, 255]
+	},
 ]
