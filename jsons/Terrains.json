@@ -29,7 +29,6 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"A Region is formed with at least [60]% [Plains] tiles, with priority [2]",
             		"A Region can not contain more [Plains] tiles than [Grassland] tiles",
-			"A Region can not contain more [Mountains] tiles than [Plains] tiles",
 		]
 	},
 	{
@@ -45,7 +44,6 @@
 
 			"A Region is formed with at least [30]% [Plains] tiles, with priority [1]",
             		"A Region can not contain more [Grassland] tiles than [Plains] tiles",
-			"A Region can not contain more [Mountains] tiles than [Grassland] tiles"
 		]
 	},
 	{
