@@ -119,7 +119,7 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
-	//Deleted
+	/*Deleted - Required when this wasn't a ruleset. From now on, it might have to be.
 	{
 		"name": "Snow",
 		"type": "Land",
@@ -165,5 +165,5 @@
 			"Will not be displayed in Civilopedia",
 			"Doesn't generate naturally"
 		]
-	}
+	}*/
 ]
