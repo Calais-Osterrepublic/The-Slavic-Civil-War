@@ -5,11 +5,25 @@
     },
     {
         "name": "Militia",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": [
+            "Can transform to [Worker] <when not at war>",
+            "[-66]% Strength <when fighting in [Foreign Land] tiles>",
+            "[-2] Movement <in [Foreign Land] tiles>",
+            "Only available <in cities with a [Recruiting Office]>"
+        ]
     },
     {
         "name": "Infantry",
         "movementType": "Land"
+    },
+    {
+        "name": "Special Units",
+        "movementType": "Land",
+        "uniques": [
+            "Limited to [1] per Civilization",
+            "Unbuildable"
+        ]
     },
     {
         "name": "Close Ranged",
@@ -17,19 +31,34 @@
     },
     {
         "name": "Motor",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": [
+            "May withdraw before melee ([+25]%)"
+        ]
     },
     {
         "name": "Scout",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": [
+            "Ignores terrain cost",
+            "Ignores Zone of Control"
+        ]
     },
     {
         "name": "Armored",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": [
+            "[-1] Sight",
+            "[-5] HP when healing"
+        ]
     },
     {
         "name": "Siege",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": [
+            "[-1] Sight",
+            "[-5] HP when healing"
+        ]
     },
   
     {
@@ -57,7 +86,7 @@
     {
         "name": "Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft", "No Sight"]
     },
     {
         "name": "Missile",
@@ -67,7 +96,10 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
+        "uniques": [
+            "Can pass through impassable tiles",
+            "[-10] HP when healing"
+        ]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
