@@ -1,0 +1,7 @@
+Civilian Water - Two naval workers
+Civilian - Great People (four), Resettler, two land workers, and one "Strategic" worker
+Militia - Local defence, cannot leave home base without death
+Recon - Quick scouts that can't defend well
+
+Motor - Light Cavalry
+Armored - Heavy Cavalry
