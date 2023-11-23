@@ -1,7 +1,36 @@
 Civilian Water - Two naval workers
 Civilian - Great People (four), Resettler, two land workers, and one "Strategic" worker
-Militia - Local defence, cannot leave home base without death
-Recon - Quick scouts that can't defend well
 
-Motor - Light Cavalry
-Armored - Heavy Cavalry
+//Land// -Wide Variety, either low cost conventionals, or high maintenence, resource needy Technicals(*)
+Militia - Local defence, cannot leave home base without weakness
+Recon - Quick scouts that can't defend well
+Infantry - Simple, bonusless Melee
+Close Range - Close Ranged 
+
+Siege* - Long Ranged, think artilery
+Motor* - Light Cavalry
+Armored* - Heavy Cavalry
+Helicopter* - Hard-to-heal Close Ranged fliers
+Anit-air* - Surface-to-Air
+
+//Water// 
+
+Submarines - Weak, stealthy anti-stealth
+
+//Pulled off of Wikipedia:
+Destroyers - Fast Short Range, meant to counter backliners
+Battleships - Close Ranged Fighters, take the brunt of force
+Aircraft Carriers - Carry aircraft
+Corvette - Very weak littorals, best for coastal defence
+Cruisers - Long-range**
+
+//Made up:
+Piraeans - Melee Stealth Capturers
+
+//Air//
+Fighters - Air-to-air
+Bombers - Air-to-surface, heavy hitter(broader than unmanned)
+Unmanned - Air-to-surface, susceptable to fighters(anti-Technical)
+Missles - Uninterceptable forces of destruction
+
+** All varients of a unit will be best carried out using the Promotions. 
