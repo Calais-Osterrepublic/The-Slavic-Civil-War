@@ -8,23 +8,24 @@ Infantry - Simple, bonusless Melee
 Close Range - Close Ranged 
 
 Siege* - Long Ranged, think artilery
-Motor* - Light Cavalry
+Motor - Light Cavalry
 Armored* - Heavy Cavalry
 Helicopter* - Hard-to-heal Close Ranged fliers
 Anit-air* - Surface-to-Air
 
 //Water// 
 
-Submarines - Weak, stealthy anti-stealth
-
-//Pulled off of Wikipedia:
+//Front Water
 Destroyers - Fast Short Range, meant to counter backliners
 Battleships - Close Ranged Fighters, take the brunt of force
-Aircraft Carriers - Carry aircraft
 Corvette - Very weak littorals, best for coastal defence
+
+//Rear Water
+Aircraft Carriers - Carry aircraft
 Cruisers - Long-range**
 
-//Made up:
+//Other
+Submarines - Weak, stealthy anti-stealth
 Piraeans - Melee Stealth Capturers
 
 //Air//
