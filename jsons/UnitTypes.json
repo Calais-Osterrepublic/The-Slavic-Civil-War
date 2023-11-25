@@ -16,7 +16,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Special Units",
+        "name": "Special Unit",
         "movementType": "Land",
         "uniques": [
             "Limited to [1] per Civilization",
