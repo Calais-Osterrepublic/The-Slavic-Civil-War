@@ -4,20 +4,16 @@
         "movementType": "Land"
     },
     {
-        "name": "Irregular Infantry",
+        "name": "Militia",
         "movementType": "Land",
         "uniques": [
             "[-66]% Strength <when fighting in [Foreign Land] tiles>",
             "[-2] Movement <in [Foreign Land] tiles>",
-            "Only available <in cities with a [Recruiting Office]>"
         ]
     },
     {
         "name": "Infantry",
         "movementType": "Land"
-        "uniques": [
-            "Only available <in cities with a [Recruiting Office]>"
-        ]
     },
     {
         "name": "Special Units",
