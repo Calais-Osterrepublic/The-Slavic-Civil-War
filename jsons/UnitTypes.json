@@ -4,10 +4,9 @@
         "movementType": "Land"
     },
     {
-        "name": "Militia",
+        "name": "Irregular Infantry",
         "movementType": "Land",
         "uniques": [
-            "Can transform to [Worker] <when not at war>",
             "[-66]% Strength <when fighting in [Foreign Land] tiles>",
             "[-2] Movement <in [Foreign Land] tiles>",
             "Only available <in cities with a [Recruiting Office]>"
@@ -16,6 +15,9 @@
     {
         "name": "Infantry",
         "movementType": "Land"
+        "uniques": [
+            "Only available <in cities with a [Recruiting Office]>"
+        ]
     },
     {
         "name": "Special Units",
@@ -28,12 +30,16 @@
     {
         "name": "Close Ranged",
         "movementType": "Land"
+        "uniques": [
+            "Only available <in cities with a [Recruiting Office]>"
+        ]
     },
     {
         "name": "Motor",
         "movementType": "Land",
         "uniques": [
-            "May withdraw before melee ([+25]%)"
+            "May withdraw before melee ([25]%)",
+            "Only available <in cities with a [Motor Assembly]>"
         ]
     },
     {
