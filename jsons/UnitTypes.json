@@ -4,14 +4,6 @@
         "movementType": "Land"
     },
     {
-        "name": "Militia",
-        "movementType": "Land",
-        "uniques": [
-            "[-66]% Strength <when fighting in [Foreign Land] tiles>",
-            "[-2] Movement <in [Foreign Land] tiles>",
-        ]
-    },
-    {
         "name": "Infantry",
         "movementType": "Land"
     },
